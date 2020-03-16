@@ -18,9 +18,9 @@ or
 (a UNIX makefile is supplied as well).
 
 This builds up an executable file, <tt>basics</tt> (<tt>basics.exe</tt> on
-Windows) that reads the ASCII files, <tt>MXX.DAT</tt> (<tt>XX</tt> $=
-00,01,...,99$) shapes the matrix $A$ and the vector $b$, multiplies the
-matrix by the vector, and writes the components of the product vector, $c = A b$,
+Windows) that reads the ASCII files, <tt>MXX.DAT</tt> (<tt>XX</tt> =
+00,01,...,99) shapes the matrix A and the vector b, multiplies the
+matrix by the vector, and writes the components of the product vector, c = A b,
 to another file. The names of both, the input and output files must be supplied
 by the user at the command line.
 
@@ -37,4 +37,4 @@ C:\Users\Username\Path\to\Folder> basics.exe MXX.DAT PRODXX.TXT
 </tt></p>
 
 and, on exit, it creates a file, <tt>PRODXX.TXT</tt>, with the indices and the 
-components of $c$. These components are also printed out to the termial.
+components of $c$. These components are also printed out to the terminal.
